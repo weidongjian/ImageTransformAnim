@@ -1,0 +1,3 @@
+# ImageTransformAnim
+
+图片的scaleType跟大小同时变化的平滑过渡动画效果，采用Transition来实现
