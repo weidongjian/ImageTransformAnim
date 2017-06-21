@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button3, button2;
+    private Button button, button2;
     private ImageView mImage;
     private ViewGroup mRootView;
 
@@ -21,12 +21,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        button3 = (Button) findViewById(R.id.button);
+        button = (Button) findViewById(R.id.button);
         button2 = (Button) findViewById(R.id.button2);
         mImage = (ImageView) findViewById(R.id.image);
         mRootView = (ViewGroup) findViewById(R.id.rootView);
-        button3.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 zoomIn();
@@ -38,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
                 zoomOut();
             }
         });
+    }
+
+    private void mergeTest() {
+        
     }
 
 
