@@ -39,10 +39,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void mergeTest() {
-        
-    }
-
 
     private void zoomIn() {
         ViewGroup.LayoutParams layoutParams = mImage.getLayoutParams();
